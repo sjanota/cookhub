@@ -5,7 +5,6 @@ const recipes = (state = null, action) => {
   switch (action.type) {
     case RECIPES_LOADED:
       return action.recipes
-      break;
     default:
       return state
   }
